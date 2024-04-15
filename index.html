@@ -170,7 +170,7 @@ tr:nth-child(even) {
 <!-- Inserting App -->
 <section data-background-image="./code_image.jpg">
   <div class="stretch">
-    <iframe src="https://micfm.shinyapps.io/compounding_app1/" height="100%" width="100%"></iframe>
+    <iframe src="https://ztranche.com/corporate_finance/ear_apr/app1/" height="100%" width="100%"></iframe>
   </div>
 </section>
 
@@ -178,11 +178,10 @@ tr:nth-child(even) {
 <section>
   <center><h2>EAR Calculator:</h2></center>
 <div class="slidecontainer">
-  <input type="range" min="0" max="100" value="50" class="slider" id="sales">
-  <p align="center"><b>APR: <span id="sales_out"></b></span></p>  
-  <input type="range" min="0" max="100" value="50" class="slider" id="costs">
-  <p align="center"><b>Compounding Periods: <span id="costs_out"></b></span></p>  
-  <input type="range" min="0" max="100" value="50" class="slider" id="depreciation">
+  <input type="range" min="0" max="25" value="12" class="slider" id="apr">
+  <p align="center"><b>APR: <span id="apr_out"></b></span></p>  
+  <input type="range" min="0" max="365" value="12" class="slider" id="cp">
+  <p align="center"><b>Compounding Periods: <span id="cp_out"></b></span></p>  
 </div>
 
 <center><button onclick="myJsFunction()">Calculate</button></center>
@@ -191,15 +190,15 @@ tr:nth-child(even) {
 <table>
   <tr>
     <th>APR</th>
-    <th><span id="sales_table"></span></th>
+    <th><span id="apr_table"></span></th>
   </tr>
   <tr>
     <th>Compounding Periods</th>
-    <th><span id="costs_table"></span></th>
+    <th><span id="cp_table"></span></th>
   </tr>
   <tr>
     <th>EAR</th>
-    <th><span id="ebit"></span></th>
+    <th><span id="ear"></span></th>
   </tr>
 </table>
 </center>
@@ -208,14 +207,14 @@ tr:nth-child(even) {
 </section>
 
 
-<section>
-<h3>Credits and Collaboration</h3>
+<!-- <section> -->
+<!-- <h3>Credits and Collaboration</h3> -->
 
-<p align="left">Click the following links to see the <a href="https://github.com/FinancialMarkets/interest_compounding">code</a>, <a href="https://github.com/FinancialMarkets/interest_compounding/blame/master/index.html">authors of this presentation</a>.</p>
+<!-- <p align="left">Click the following links to see the <a href="https://github.com/FinancialMarkets/interest_compounding">code</a>, <a href="https://github.com/FinancialMarkets/interest_compounding/blame/master/index.html">authors of this presentation</a>.</p> -->
 
-<p align="left">If you would like to make any additions or corrections to this presentation, visit our <a href="https://github.com/FinancialMarkets/5MinuteFinance#how-to-contribute">GitHub repository page</a> to learn more about how to contribute.</p>
+<!-- <p align="left">If you would like to make any additions or corrections to this presentation, visit our <a href="https://github.com/FinancialMarkets/5MinuteFinance#how-to-contribute">GitHub repository page</a> to learn more about how to contribute.</p> -->
 
-</section>
+<!-- </section> -->
 
 </div>
 </div>
